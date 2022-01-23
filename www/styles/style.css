@@ -9,7 +9,7 @@ html, body
     width: 100%;
 }
 
-.main_page
+.page
 {
     height: 100%;
     width: 100%;
@@ -20,8 +20,19 @@ html, body
     height: 20%;
     width: 100%;
     text-align: center;
-    background-color: rgb(200, 222, 255);
-    font-family: 'Lato', sans-serif;
+    line-height: 160px;
+    background-color: rgb(241, 241, 241);
+    font-family: 'Lato', sans-serif;;
+}
+
+#arrow
+{
+    position:absolute;                 
+    bottom:0;
+    left: 50%;
+    margin: auto;
+    width: 2.5%;
+    padding-bottom: 40px;;
 }
 
 #main_page_img
@@ -31,20 +42,54 @@ html, body
     background-color: chartreuse;
 }
 
-.second_page
+#main_page_img img
 {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .linkDiv
 {
+    position: relative;
     height: 20%;
-    width: 25%;
+    width: 24.86%;
     float: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.linkDiv img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.linkDiv :hover
+{
+    opacity: 0.5;
 }
 
 #mapDiv
 {
     height: 80%;
+    width: 100%;
+    /* box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3); */
 }
+
+#description
+{
+    height: 40%;
+    font-family: 'Lato', sans-serif;
+}
+
+#footer
+{
+    background-color: rgb(80, 80, 80);
+    height: 20%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+

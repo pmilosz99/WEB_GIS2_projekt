@@ -6,25 +6,50 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
-    <script src='scripts/add_map.js' defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.22/"></script>
 </head>
 <body>
-    <div class="main_page">
+    <div class="page">
         <div id="title">
             <h1>Zabytki w Warszawie</h1>
         </div>
-        <div id="main_page_img"> 
+        <div id="main_page_img">
+            <img src="img/warszawa2.jpg">
+            <div id="arrow"><img src="img/arrow.png" width="100" height="120"></div>
         </div>
     </div>
-    <div class="second_page">
-        <div class="linkDiv"><h1>Żoliborz</h1></div>
-        <div class="linkDiv"><h1>Śródmieście</h1></div>
-        <div class="linkDiv"><h1>Mokotów</h1></div>
-        <div class="linkDiv"><h1>Wola</h1></div>
+    <div class="page">
+        <div class="linkDiv">
+            <img src="img/warszawa_zoliborz.png">
+        </div>
+        <div class="linkDiv">
+            <img src="img/warszawa_srodmiescie.png">
+        </div>
+        <div class="linkDiv">
+            <img src="img/warszawa_mokotow.png">
+        </div>
+        <div class="linkDiv">
+            <img src="img/warszawa_wola.png">
+        </div>
         <div id="mapDiv"></div>
     </div>
+    <div id="description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tristique augue, vitae interdum lectus lobortis sit amet. Nam maximus leo ut eros elementum, ut porttitor eros luctus. Praesent tempor sapien et leo venenatis, non faucibus libero pulvinar. Cras lacinia erat nec vestibulum hendrerit. Aliquam erat volutpat. Ut non neque eu ex posuere pellentesque. Mauris varius quam eu ligula pretium, sed finibus diam volutpat. Praesent ut tellus nisi. Nam nec mauris vel sem mollis pulvinar. Praesent tincidunt lobortis pellentesque. Fusce hendrerit lacus eros, a congue orci porttitor ac. Vivamus nunc arcu, iaculis at commodo et, porta vitae enim. Ut at ligula sed arcu convallis pulvinar in sed lorem. Curabitur lorem metus, tempor at justo in, pulvinar rutrum mi. Aliquam vulputate nibh vitae velit gravida porttitor. Morbi varius ipsum at sem luctus, quis porta sem euismod.
+
+            Proin interdum, elit id imperdiet porttitor, augue tortor facilisis lectus, luctus luctus quam dui id nibh. Cras quis purus in augue facilisis pulvinar nec vel lacus. Suspendisse non lectus ut libero venenatis fringilla ac eu lectus. Duis suscipit in mi eget ornare. Etiam gravida commodo massa et fermentum. Sed malesuada nisi quam, in tristique lorem tempus et. Cras pulvinar volutpat magna quis commodo.
+            
+            Morbi varius efficitur neque et pretium. Ut elit nisl, sodales sit amet volutpat at, tincidunt in dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus dignissim ante vel suscipit ultrices. Pellentesque a congue lorem. Proin nec efficitur quam. Praesent sem neque, volutpat nec pulvinar a, blandit ac eros. Quisque faucibus finibus pulvinar. Donec ut luctus mauris. Curabitur pharetra felis sit amet lectus ornare auctor. Duis interdum porttitor nisl, id efficitur tellus convallis ut. Sed gravida in nibh a pharetra. Fusce aliquam metus sit amet nibh blandit euismod.
+            
+            Cras tortor tortor, pellentesque a neque id, sagittis dapibus urna. Pellentesque ullamcorper eu arcu at posuere. Cras condimentum tempus diam quis efficitur. Proin volutpat magna ut tortor porttitor ullamcorper. Praesent bibendum varius ullamcorper. Integer vitae dictum enim. Nullam interdum ante nec convallis tincidunt. Nulla facilisi. Nunc molestie ornare imperdiet. Maecenas porttitor vestibulum nisi in pellentesque. Fusce eu nibh a ligula mollis varius. Aliquam id ultrices tellus, nec bibendum ipsum.</p>
+    </div>
+    <div id="footer">
+        <h1>Strona została wykonana na zaliczenie przedmiotu WEB-GIS2</h1>
+    </div>
+    
 </body>
+<script src='scripts/add_map.js'></script>
 </html>

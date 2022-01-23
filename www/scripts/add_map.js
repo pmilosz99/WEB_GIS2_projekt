@@ -16,7 +16,7 @@ require([
     const view = new MapView({
         map: map1,
         container: "mapDiv",
-        center:[-100.4593, 36.9014],
+        center:[21.006, 52.234],
         zoom:15
     });
 
@@ -24,7 +24,7 @@ require([
     const gl = new GraphicsLayer();
 
     const fl = new FeatureLayer({
-        url: "https://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer/1"
+        url: "https://services.arcgis.com/hVsb2InA4op6ydG0/arcgis/rest/services/zabytki_wawa/FeatureServer"
     });
 
     map1.add(fl);
