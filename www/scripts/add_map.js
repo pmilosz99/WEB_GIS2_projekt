@@ -20,6 +20,13 @@ require([
         zoom:15
     });
 
+    document.getElementById("zoliborz").addEventListener("click", function() {
+        view.goTo({
+            center: [20.957, 52.233],
+            zoom: 15
+        });
+    });
+
     // Warstwy
     const gl = new GraphicsLayer();
 

@@ -6,11 +6,13 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/arrow.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css">
     <script src="https://js.arcgis.com/4.22/"></script>
+    <script src="scripts/scripts.js" defer></script>
 </head>
 <body>
     <div class="page">
@@ -18,22 +20,26 @@
             <h1>Zabytki w Warszawie</h1>
         </div>
         <div id="main_page_img">
-            <img src="img/warszawa2.jpg">
-            <div id="arrow"><img src="img/arrow.png" width="100" height="120"></div>
+            <img src="img/warszawa3.jpg">
+            <div id="arrow"><span></span>
+                            <span></span>
+                            <span></span>
+            </div>
+            <!-- <img src="img/arrow.png" width="100" height="120"> -->
         </div>
     </div>
     <div class="page">
-        <div class="linkDiv">
-            <img src="img/warszawa_zoliborz.png">
+        <div id="zoliborz" class="linkDiv">
+            <img src="img/warszawa_linki_zoliborz.png">
         </div>
         <div class="linkDiv">
-            <img src="img/warszawa_srodmiescie.png">
+            <img src="img/warszawa_linki_srodmiescie.png">
         </div>
         <div class="linkDiv">
-            <img src="img/warszawa_mokotow.png">
+            <img src="img/warszawa_linki_mokotow.png">
         </div>
         <div class="linkDiv">
-            <img src="img/warszawa_wola.png">
+            <img src="img/warszawa_linki_wola.png">
         </div>
         <div id="mapDiv"></div>
     </div>
