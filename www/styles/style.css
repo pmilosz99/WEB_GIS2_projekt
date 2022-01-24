@@ -18,12 +18,12 @@ html, body
 
 #title
 {
-    height: 20%;
+    height: 10%;
     width: 100%;
     text-align: center;
     background-color: rgb(241, 241, 241);
     font-family: 'Lato', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #title h1
@@ -37,7 +37,7 @@ html, body
 
 #main_page_img
 {
-    height: 80%;
+    height: 90%;
     width: 100%;
 }
 
@@ -81,7 +81,7 @@ html, body
 
 #description
 {
-    height: 40%;
+    /* height: 40%; */
     font-family: 'Lato', sans-serif;
     padding: 15px;
 }
@@ -89,9 +89,14 @@ html, body
 #footer
 {
     background-color: rgb(44, 44, 44);
-    height: 15%;
+    height: 16%;
     font-family: 'Lato', sans-serif;
     color: white;
     padding: 30px;
+}
+
+#footer a :hover
+{
+    opacity: 0.5;
 }
 
